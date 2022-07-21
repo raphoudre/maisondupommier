@@ -4,15 +4,27 @@
 }
 
 .wrapperContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
     margin: 0;
     padding: 0;
 }
 .navContainer{
     height: 10%;
+    width: 100%;
+    max-width: 100vw;
     background-color: aqua;
 }
 .childContainer{
     height: 90%;
+    width: 100%;
+    max-width: 100vw;
     background-color: blueviolet;
+}
+.pageContainer{
+    
 }

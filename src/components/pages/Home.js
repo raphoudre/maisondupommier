@@ -4,9 +4,9 @@ import Wrapper from '../Wrapper';
 const Home = () => {
     return (
         <>
-        <Wrapper>
-            <h1>Yo</h1>
-        </Wrapper>
+            <Wrapper>
+                <h1>Yo</h1>
+            </Wrapper>
         </>
     );
 };
