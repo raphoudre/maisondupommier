@@ -1,12 +1,11 @@
 import React from 'react';
-import Wrapper from '../Wrapper';
-
+import {Container} from 'react-bootstrap'
 const About = () => {
     return (
         <>
-            <Wrapper>
+            <Container>
                 <h2>About</h2>
-            </Wrapper>
+            </Container>
         </>
     );
 };

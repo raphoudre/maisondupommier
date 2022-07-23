@@ -1,12 +1,12 @@
 import React from 'react';
-import Wrapper from '../Wrapper';
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
     return (
         <>
-            <Wrapper>
-                <h1>Yo</h1>
-            </Wrapper>
+            <Container>
+                <h1>Accueil</h1>
+            </Container>
         </>
     );
 };

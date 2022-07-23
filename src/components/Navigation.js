@@ -1,16 +1,21 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import '../styles/Containers.css';
+import { Navbar, Container, Nav  } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <div>
-            <NavLink to="/">
-                <p>Home</p>
-            </NavLink>
-            <NavLink to="/about">
-                <p>A propos</p>
-            </NavLink>
-        </div>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Container>
+                <Navbar.Brand href='/'>La maison du pommier</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href='/about'>A propos</Nav.Link>
+                        <Nav.Link href='/booking'>Réserver</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 
