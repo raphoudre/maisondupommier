@@ -1,11 +1,18 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Image, Row, Col } from 'react-bootstrap';
 
 const Home = () => {
     return (
         <>
-            <Container>
-                <h1>Accueil</h1>
+            <Container fluid className='d-flex flex-column'>
+                <Row>
+                    <Col>
+                        <h1>Accueil</h1>
+                    </Col>
+                    <Col>
+                        <Image fluid src='/images/maison.jpg' />
+                    </Col>
+                </Row>
             </Container>
         </>
     );
