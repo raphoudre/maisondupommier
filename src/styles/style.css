@@ -1,0 +1,24 @@
+.homeTitle{
+    font-size: larger;
+}
+.homeSecondTitle{
+    font-size: 1.5em !important;
+}
+.navLinkSize{
+    font-size: 1.5em !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .homeSecondTitle{
+        font-size: 1em !important;
+    }
+    .buttonKnow{
+        width: 100% !important;
+    }
+}
+
+.buttonKnow{
+    width: 50% !important;
+    font-size: 1.5em !important;
+    padding-bottom: 0!important;
+}

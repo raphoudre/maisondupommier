@@ -10,17 +10,18 @@ import Navigation from './components/Navigation';
 import Error404 from './components/pages/Error404'
 import Booking from './components/pages/Booking';
 import { Container } from 'react-bootstrap';
+import './styles/style.css'
 function App() {
   return (
     <Router>
       <Navigation/>
-      <Container fluid>
+      <Container>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/booking' element={<Booking/>}/>
           <Route path='*' element={<Error404/>}/>
-      </Routes>
+        </Routes>
       </Container>
     </Router>
   );
