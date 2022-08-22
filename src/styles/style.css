@@ -8,6 +8,21 @@
     font-size: 1.5em !important;
 }
 
+.calCol{
+    width: 14.28%!important;
+    padding: 7px!important;
+    text-align: center;
+}
+.calRow{
+    height: 20%!important;
+
+}
+
+.calendarSquare{
+    width: 300px;
+    height: 300px;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .homeSecondTitle{
         font-size: 1em !important;
